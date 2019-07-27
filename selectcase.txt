@@ -1,0 +1,17 @@
+public class compiler
+  shared function Main as integer
+' Here your code !
+    dim a as integer
+    a = 10
+    
+    select case a
+    
+    case 1
+        console.writeline("aaaa")
+    case 9
+        console.writeline("BBBB")
+    end select
+    
+    return 0
+  End function
+end class
