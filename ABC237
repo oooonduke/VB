@@ -1,0 +1,7 @@
+module ABC237A
+  sub Main(ByVal args() as String)
+    dim x as Long
+    x=Console.ReadLine()
+    Console.WriteLine(If((x >= -(2^31)) AND (x < (2^31)),"Yes","No"))
+  end sub
+end module
